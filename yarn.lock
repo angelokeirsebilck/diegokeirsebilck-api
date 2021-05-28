@@ -7466,9 +7466,9 @@ node-addon-api@2.0.0:
   integrity sha512-ASCL5U13as7HhOExbT6OlWJJUV/lLzL2voOSP1UVehpRD8FbSrSDjfScK/KwAvVTI5AS6r4VwbOMlIqtvRidnA==
 
 node-addon-api@^3.1.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.2.0.tgz#7028b56a7eb572b73873aed731a7f9c9365f5ee4"
-  integrity sha512-kcwSAWhPi4+QzAtsL2+2s/awvDo2GKLsvMCwNRxb5BUshteXU8U97NCyvQDsGKs/m0He9WcG4YWew/BnuLx++w==
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.2.1.tgz#81325e0a2117789c0128dab65e7e38f07ceba161"
+  integrity sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
 
 node-fetch@2.6.1, node-fetch@^2.1.2, node-fetch@^2.2.0, node-fetch@^2.6.1:
   version "2.6.1"
@@ -10353,7 +10353,7 @@ strapi-plugin-email@3.6.2:
     strapi-provider-email-sendmail "3.6.2"
     strapi-utils "3.6.2"
 
-strapi-plugin-graphql@^3.6.2:
+strapi-plugin-graphql@3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.6.2.tgz#53cae5ee355700e7969072d6cc4c3021314446c8"
   integrity sha512-lyWnKBWwoSXbNOUg0WgYdZ/S5Y/4+u1O4/TDpk7ZUK+f1rgQdR0UGY1zPLfIjrU7M1iOn/it5tzx1zmObztonQ==

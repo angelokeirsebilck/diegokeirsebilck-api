@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "homebanners",
+  "info": {
+    "name": "homebanner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    }
+  }
+}
