@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_contents",
+  "info": {
+    "name": "Home Content"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "content.tekst-media"
+      ]
+    }
+  }
+}

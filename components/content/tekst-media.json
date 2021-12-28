@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_tekst_medias",
+  "info": {
+    "name": "Tekst / Media",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Tekst": {
+      "type": "richtext"
+    },
+    "Media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
