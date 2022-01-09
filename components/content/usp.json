@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_usps",
+  "info": {
+    "name": "USP List",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "uspitem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.usp-item"
+    },
+    "Background": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "yellow"
+      ],
+      "default": "white",
+      "required": true
+    }
+  }
+}

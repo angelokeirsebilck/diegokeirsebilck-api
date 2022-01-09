@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_content_ctas",
+  "info": {
+    "name": "Cta",
+    "icon": "external-link-square-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ctatitle": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link",
+      "required": true
+    },
+    "ctatext": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "ctabackground": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "yellow"
+      ],
+      "default": "white",
+      "required": true
+    }
+  }
+}

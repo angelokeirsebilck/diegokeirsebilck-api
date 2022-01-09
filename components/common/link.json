@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_links",
+  "info": {
+    "name": "Link",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "diensten",
+        "contact"
+      ],
+      "required": true,
+      "default": "home"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

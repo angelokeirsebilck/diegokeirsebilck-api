@@ -2,17 +2,19 @@
   "collectionName": "components_content_tekst_medias",
   "info": {
     "name": "Tekst / Media",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Titel": {
+    "title": {
       "type": "string"
     },
-    "Tekst": {
-      "type": "richtext"
+    "text": {
+      "type": "richtext",
+      "required": true
     },
-    "Media": {
+    "media": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -22,6 +24,35 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "yellow"
+      ],
+      "required": true,
+      "default": "white"
+    },
+    "imagepos": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    },
+    "textalign": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "center"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
     }
   }
 }

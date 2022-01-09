@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_content_usp_items",
+  "info": {
+    "name": "usp item",
+    "icon": "sitemap"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
